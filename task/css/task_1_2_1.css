@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family:"微软雅黑";
+}
+
+body {
+	background-color: #DBDBDB;
+}
+
+.header {
+	display: block;
+	height: 60px;
+	background-color: #696969;
+}
+
+.header img {
+	position: absolute;
+	top: 10px;
+	left: 30px;
+}
+
+.header ul {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.header ul li {
+	float: left;
+	margin: 0 15px;
+}
+
+.header ul li a {
+	color: white;
+}
+
+.header ul li a:hover {
+	color: #DBDBDB;
+}
+
+#container {
+	position: relative;
+	width: 1550px;
+	margin: 40px auto;
+}
+
+.content,.footer {
+	background-color: white;
+	position: relative;
+	margin: 20px;
+	padding: 20px;
+}
+.content * {
+	position: relative;
+	margin: 15px;
+}
+
+.paragraph {
+	text-indent: 2em;
+	line-height: 200%;
+}
+
+.content ul li {
+	list-style: none;
+}
+
+.content dl dd {
+	display: block;
+	width: 100px;
+	height: 100px;
+	border: solid #DBDBDB 1px;
+}
+
+.content dl dd p {
+	position: relative;
+	font-size: x-small;
+	width: 60px;
+	margin: 5px auto;
+	padding: 0px;
+}
+
+.content dl dd img{
+	position: relative;
+	width: auto;
+	height: auto;
+	max-width: 60%;
+	max-height: 60%;
+	margin: 5px;
+	left: 15px;
+}
+
+.content ol {
+	left: 40px;
+}
+
+.content table {
+	width: 100%;
+	border-collapse: collapse;
+	border: #DBDBDB;
+}
+
+.content table tr th {
+	padding: 5px;
+	background-color: black;
+	color: white;
+}
+
+.content table tr td {
+	padding: 5px;
+}
+
+.content table tr td a {
+	margin: 0px;
+}
+
+#total {
+	background-color: #DBDBDB;
+	font-weight: bold;
+}
+
+.footer {
+	line-height: 300%;
+	height: 600px;
+}
+
+.footer h2 {
+	border-left: solid 5px #DBDBDB;
+	padding: 10px;
+}
+
+.footer form {
+	position: relative;
+	width: 700px;
+	margin: auto;
+}
+
+.footer p {
+	text-align: center;
+}
+
+.input {
+	clear: right;
+	position: relative;
+	float: left;
+	left: 200px;
+}
+
+label {
+	position: relative;
+	float: right;
+	top: 35px;
+	right: 525px;
+}
+
+textarea {
+	width: 100%;
+	height: 100px;
+}
+
+#submitButton {
+	position: relative;
+	width: 120%;
+	height: 40px;
+	top: 20px;
+	border-radius: 10px;
+	background-color:blue;
+	color: white;
+}
