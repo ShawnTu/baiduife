@@ -30,7 +30,7 @@
   			遍历读取aqiData中各个城市的数据
   			将空气质量指数大于60的城市显示到aqi-list的列表中
   			*/
-			
+			window.onload = function(){
 			for (var i=0;i<aqiData.length;i++) {
 				if (aqiData[i][1] > 60) {
 					var city = document.createElement("li");
@@ -38,7 +38,7 @@
 					document.getElementById("aqi-list").appendChild(city);
 				}
 			}
-			
+			};
 		})();
 		</script>
 	</body>
